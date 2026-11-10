@@ -1,0 +1,667 @@
+{
+  "title": "엘림넷 가산 IDC 랙 배치도",
+  "updated": "2026-08-12",
+  "racks": [
+    {
+      "id": "5-1",
+      "name": "5-1조",
+      "tenant": "엘림넷",
+      "tenantNote": "",
+      "status": "used",
+      "door": false,
+      "noKey": false,
+      "checked": "2025-11-20",
+      "note": "",
+      "devices": [
+        {
+          "id": "d1",
+          "name": "510T",
+          "ip": "211.240.48.14",
+          "top": 2,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d2",
+          "name": "Summit48 SW / WAF 上",
+          "ip": "211.174.186.210",
+          "top": 8,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d3",
+          "name": "Alaxala WAF 下",
+          "ip": "211.174.48.20",
+          "top": 27,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d4",
+          "name": "고객용 Summit48 SW",
+          "ip": "",
+          "top": 32,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d5",
+          "name": "SK인포섹 관제",
+          "ip": "211.174.183.138",
+          "top": 41,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d6",
+          "name": "LGCNS whatsup IBM",
+          "ip": "112.216.48.190",
+          "top": 51,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d7",
+          "name": "Intel 510T SW",
+          "ip": "",
+          "top": 62,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d8",
+          "name": "smtp.elim.co.kr",
+          "ip": "211.240.48.11",
+          "top": 68,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d9",
+          "name": "backup.elim.net",
+          "ip": "203.239.130.170",
+          "top": 71,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d10",
+          "name": "IDC 고객사 백업",
+          "ip": "211.240.48.29",
+          "top": 89,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d11",
+          "name": "스모크롱",
+          "ip": "211.240.48.10",
+          "top": 92,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d12",
+          "name": "스모크핑/파일서버",
+          "ip": "211.240.48.5",
+          "top": 114,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "5-2",
+      "name": "5-2조",
+      "tenant": "",
+      "tenantNote": "",
+      "status": "empty",
+      "door": false,
+      "noKey": false,
+      "checked": "2025-11-20",
+      "note": "",
+      "devices": []
+    },
+    {
+      "id": "5-3",
+      "name": "5-3조",
+      "tenant": "한국금융아이티",
+      "tenantNote": "상단",
+      "status": "used",
+      "door": false,
+      "noKey": false,
+      "checked": "2025-11-20",
+      "note": "1/2 랙 계약 (2024-07-05 확인)",
+      "devices": [
+        {
+          "id": "d13",
+          "name": "IBM",
+          "ip": "211.240.103.74",
+          "top": 2,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d14",
+          "name": "IBM",
+          "ip": "211.240.103.79",
+          "top": 8,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d15",
+          "name": "IBM",
+          "ip": "211.240.103.190",
+          "top": 17,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d16",
+          "name": "IBM",
+          "ip": "211.240.103.75",
+          "top": 25,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d17",
+          "name": "월드티커 (IBM)",
+          "ip": "211.240.103.98",
+          "top": 32,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": "라벨은 .98로 붙어 있으나 실제 IP는 211.240.103.92"
+        },
+        {
+          "id": "d18",
+          "name": "BP (IBM)",
+          "ip": "211.240.103.77",
+          "top": 38,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d19",
+          "name": "HP",
+          "ip": "211.240.103.96",
+          "top": 44,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d20",
+          "name": "IBM",
+          "ip": "211.240.103.72",
+          "top": 51,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d21",
+          "name": "IBM",
+          "ip": "211.240.103.106",
+          "top": 54,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "5-4",
+      "name": "5-4조",
+      "tenant": "비즈테크아이 1",
+      "tenantNote": "전체",
+      "status": "used",
+      "door": false,
+      "noKey": false,
+      "checked": "2025-11-20",
+      "note": "2랙 계약 (2024-07-05 확인)",
+      "devices": [
+        {
+          "id": "d22",
+          "name": "3COM SW",
+          "ip": "",
+          "top": 1,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d23",
+          "name": "SG 210",
+          "ip": "",
+          "top": 9,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d24",
+          "name": "AMS (IBM)",
+          "ip": "",
+          "top": 12,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d25",
+          "name": "System x3850",
+          "ip": "211.174.185.26",
+          "top": 18,
+          "h": 12,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d26",
+          "name": "Lenova",
+          "ip": "",
+          "top": 33,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d27",
+          "name": "IBM",
+          "ip": "",
+          "top": 41,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d28",
+          "name": "SG 135",
+          "ip": "",
+          "top": 53,
+          "h": 3,
+          "col": 1,
+          "w": 1,
+          "note": ""
+        },
+        {
+          "id": "d29",
+          "name": "AMS (IBM)",
+          "ip": "211.174.185.30",
+          "top": 56,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d30",
+          "name": "solman",
+          "ip": "211.174.185.12",
+          "top": 65,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d31",
+          "name": "DELL",
+          "ip": "",
+          "top": 83,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d32",
+          "name": "DELL",
+          "ip": "",
+          "top": 90,
+          "h": 6,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d33",
+          "name": "BACKUP (QNAP)",
+          "ip": "211.174.185.9",
+          "top": 107,
+          "h": 13,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "5-5",
+      "name": "5-5조",
+      "tenant": "",
+      "tenantNote": "",
+      "status": "empty",
+      "door": false,
+      "noKey": false,
+      "checked": "2025-11-20",
+      "note": "",
+      "devices": []
+    },
+    {
+      "id": "5-6",
+      "name": "5-6조",
+      "tenant": "",
+      "tenantNote": "",
+      "status": "empty",
+      "door": false,
+      "noKey": false,
+      "checked": "2025-11-20",
+      "note": "",
+      "devices": []
+    },
+    {
+      "id": "5-7",
+      "name": "5-7조",
+      "tenant": "엘림넷",
+      "tenantNote": "",
+      "status": "used",
+      "door": false,
+      "noKey": false,
+      "checked": "2025-11-20",
+      "note": "",
+      "devices": [
+        {
+          "id": "d34",
+          "name": "5조 Main SW",
+          "ip": "",
+          "top": 1,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d35",
+          "name": "Vidyo CISCO SW",
+          "ip": "",
+          "top": 8,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d36",
+          "name": "Vidyo Portal",
+          "ip": "",
+          "top": 13,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d37",
+          "name": "DELL",
+          "ip": "",
+          "top": 18,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d38",
+          "name": "Vidyo RT 01",
+          "ip": "211.240.117.5",
+          "top": 23,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d39",
+          "name": "Vidyo RT 02",
+          "ip": "211.240.117.6",
+          "top": 28,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d40",
+          "name": "Vidyo RT 03",
+          "ip": "211.240.117.7",
+          "top": 33,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d41",
+          "name": "Vidyo RT 04",
+          "ip": "211.240.117.8",
+          "top": 38,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d42",
+          "name": "Vidyo RT 05",
+          "ip": "",
+          "top": 43,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d43",
+          "name": "웨비나룸 (DELL)",
+          "ip": "203.239.130.245",
+          "top": 48,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d44",
+          "name": "Vidyo RT 11",
+          "ip": "",
+          "top": 53,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d45",
+          "name": "Vidyo RT 12",
+          "ip": "",
+          "top": 58,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d46",
+          "name": "Vidyo RT 13",
+          "ip": "",
+          "top": 63,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d47",
+          "name": "Vidyo RT 14",
+          "ip": "",
+          "top": 68,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d48",
+          "name": "Vidyo RT 15",
+          "ip": "",
+          "top": 73,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d49",
+          "name": "Vidyo GW",
+          "ip": "",
+          "top": 78,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        },
+        {
+          "id": "d50",
+          "name": "UC SG210",
+          "ip": "",
+          "top": 83,
+          "h": 3,
+          "col": 0,
+          "w": 3,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "5-8",
+      "name": "5-8조",
+      "tenant": "",
+      "tenantNote": "",
+      "status": "empty",
+      "door": true,
+      "noKey": false,
+      "checked": "2025-11-20",
+      "note": "",
+      "devices": []
+    },
+    {
+      "id": "5-9",
+      "name": "5-9조",
+      "tenant": "KINX",
+      "tenantNote": "",
+      "status": "leased",
+      "door": true,
+      "noKey": true,
+      "checked": "",
+      "note": "KINX 10랙 계약: 4조 6개, 5조 4개 (2024-07-05 확인)",
+      "devices": []
+    },
+    {
+      "id": "5-10",
+      "name": "5-10조",
+      "tenant": "KINX",
+      "tenantNote": "",
+      "status": "leased",
+      "door": true,
+      "noKey": true,
+      "checked": "",
+      "note": "",
+      "devices": []
+    },
+    {
+      "id": "5-11",
+      "name": "5-11조",
+      "tenant": "KINX",
+      "tenantNote": "",
+      "status": "leased",
+      "door": true,
+      "noKey": true,
+      "checked": "",
+      "note": "",
+      "devices": []
+    },
+    {
+      "id": "5-12",
+      "name": "5-12조",
+      "tenant": "KINX",
+      "tenantNote": "",
+      "status": "leased",
+      "door": true,
+      "noKey": true,
+      "checked": "",
+      "note": "",
+      "devices": []
+    },
+    {
+      "id": "5-13",
+      "name": "5-13조",
+      "tenant": "비즈테크아이 2",
+      "tenantNote": "전체",
+      "status": "leased",
+      "door": true,
+      "noKey": false,
+      "checked": "2025-11-20",
+      "note": "2024-12-16 DELL 서버 2대 반입",
+      "devices": []
+    }
+  ],
+  "log": []
+}
